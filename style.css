@@ -1,9 +1,27 @@
-body{
-    background-color:white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#cons_img{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Blogger එකේ Widgets නිසා එන Spacing අයින් කිරීමට */
+.main, .widget-content {
+    display: none;
+}
+
+#cons_img {
+    max-width: 90%;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
