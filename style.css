@@ -11,6 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     width: 100%;
+    margin:0;
 }
 
 /* Blogger එකේ Widgets නිසා එන Spacing අයින් කිරීමට */
@@ -24,4 +25,54 @@ body {
     width: auto;
     height: auto;
     object-fit: contain;
+}
+.logo{
+    height:50px ;
+    float: left;
+}
+#menubar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(186, 229, 247,1);
+    height: 50px;
+    width: 100%;
+    position:fixed;
+}
+#Home{
+    margin-top: 10px;
+    float: left;
+    font-size: 25px;
+    margin-right: 30px;
+    padding-left: 20px;
+    border-left:solid;
+
+}
+#sub{
+    margin-top: 10px;
+    padding-left: 20px;
+    float:left;
+    font-size: 25px;
+    margin-right: 30px;
+    border-left:solid;
+}
+#search{
+    margin-top:12px;
+    margin-left:650px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: transparent;
+    height: 30px;
+    width: 200px;
+    float: left;
+}
+#login{
+    margin-top: 11px;
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    background-color: rgb(75, 153, 206);
+    border-style: none;
+    border-radius: 20px;
 }
