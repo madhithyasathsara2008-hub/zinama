@@ -6,12 +6,7 @@
 
 body {
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    margin:0;
+   
 }
 
 /* Blogger එකේ Widgets නිසා එන Spacing අයින් කිරීමට */
